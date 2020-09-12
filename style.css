@@ -1,0 +1,173 @@
+*{
+ margin: 0;
+ box-sizing: border-box;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    overflow: hidden;
+    /* background: #533a3a; */
+    padding: 20px 30px;
+  border-bottom:   1px solid red;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.logo{
+    width: 30%;
+    flex-basis: 30%;
+    float: left;
+}
+
+.logo img{}
+
+nav{
+    width: 70%;
+    flex-basis: 70%;
+    float: left;
+}
+nav ul{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style: none;
+    /* padding-right: 0; */
+}
+nav ul li a {
+    /* list-style: none; */
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #665959b5;
+    transition: all 0.4s linear;
+}
+nav ul li a:hover{
+    color: white;
+    background: black;
+    
+}
+.section{}
+
+.section img{
+    width: 100%;
+    display: block;
+}
+.section button{
+    padding-top:  50px;
+    color:  red;
+    background:     pink;
+}
+.gateway-section{
+
+padding-top: 70px;
+}
+
+.flex{
+    width: 1000px;
+    margin: auto;
+}
+.content{}
+.content h1{
+
+/* padding-top: 20px; */
+
+padding: 30px 0;
+
+font-size: 30px;
+
+color: #33312f9e;
+}
+.content a{
+    text-decoration: none;
+    color: #b8b6b6;
+    text-transform: uppercase;
+}
+
+.content p{
+    line-height: 1.5;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #534f4fc9;
+    font-size: 22px;
+}
+.image{
+
+padding-top: 60px;
+}
+.content2{
+
+justify-content: space-between;
+
+display: flex;
+
+flex-wrap: wrap;
+}
+.col-1-2{
+    width: 45%;
+    flex-basis: 45%;
+}
+.col-1-2 a{
+    padding-top: 20px;
+    display: block;
+    text-decoration: none;
+    color: #b8b6b6;
+    text-transform: lowercase;
+}
+.col-1-2 h2{
+    padding: 30px 0;
+
+font-size: 30px;
+
+color: #33312f9e;
+}
+.col-1-2 p{
+      line-height: 1.5;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #534f4fc9;
+    font-size: 22px;
+}
+.col-1-2 img{
+    width: 100%;
+    display: block;
+}
+footer{
+    background: #4267B2;
+    padding: 30px 0;
+}
+.copyright{
+
+}
+.copyright ul{
+    display: flex;
+}
+.copyright ul li{
+    list-style: none;
+}
+.copyright ul li a{
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 18px;
+    color: #161515b5;
+}
+.social{}
+.social ul{
+    display: flex;
+}
+.social ul li{
+    list-style: none;
+}
+.social ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 15px;
+}
